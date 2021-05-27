@@ -12,7 +12,7 @@ const Temperature = () => {
         () => {
             const fetchAPI = async () => {
 
-                const url = `http://api.openweathermap.org/data/2.5/weather?q=${search}&appid=0f8a7bd4982d28e2c88b88c7cc4a9cf5&units=metric`;
+                const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=0f8a7bd4982d28e2c88b88c7cc4a9cf5&units=metric`;
 
                 const response = await fetch(url);
                 //     headers: {
