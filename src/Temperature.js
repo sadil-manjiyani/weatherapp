@@ -70,16 +70,16 @@ const Temperature = () => {
                     <h3>-- </h3>
                     <h2 className="cityName">Temperature</h2>
                     <h3>--{"°C"}</h3>
-//                     <b>min Temp:</b><b>--</b>
-//                     <b>max Temp:</b><b>--</b>
+{//                     <b>min Temp:</b><b>--</b>
+//                     <b>max Temp:</b><b>--</b>}
                 </div>) : (
                         <div className="mainDisplay">
                             <h2 className="cityName">City Name</h2>
                             <h3>{search}</h3>
                             <h2 className="cityName">Temperature</h2>
                             <h3>{city.temp}{"°C"}</h3>
-//                             <b className="temp">min Temp:</b><b>{city.temp_min}</b>
-//                             <b className="temp">max Temp:</b><b>{city.temp_max}</b>
+{//                             <b className="temp">min Temp:</b><b>{city.temp_min}</b>
+//                             <b className="temp">max Temp:</b><b>{city.temp_max}</b>}
                         </div>
                     )}
 
